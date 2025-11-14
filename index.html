@@ -7,31 +7,114 @@
     <link rel="stylesheet" href="style.css">
     <title>Verde Ação</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-
     <header>
         <h2>Verde Ação</h2>
+
         <nav>
-            <a href="#"> Atividades </a>
-            <a href="#"> Cadastre-se</a>
+            <a href="#">Atividades</a>
+            <a href="#">Cadastre-se</a>
         </nav>
-        <main> 
-            <section class="background">
-            <h1>Verde Ação</h1>
-             <p>O Verde Ação é uma plataforma dedicada a promover a sustentabilidade ambiental por meio de atividades práticas e engajamento comunitário.</p>
-             <button> Quero ser voluntario.</button>
-           </section>
-        </main>
-
     </header>
+    <main>
+        <section class="background">
+            <h1>Verde Ação</h1>
+            <p>Ser voluntário na Verde Ação é plantar esperança e colher transformação. Juntos, cuidamos do planeta e
+                inspiramos mudanças reais!</p>
+            <button>Quero ser voluntuntário</button>
+        </section>
+
+        <section class="cards">
+
+            <article class="card">
+                <img src="./assets/girassol.jpg" alt="Imagem de girassol" />
+                <h3> Plantio de mudas </h3>
+                <p>Cada muda plantada ajuda a restaurar o meio ambiente </p>
+                <button> Ver mais</button>
+            </article>
 
 
+            <article class="card">
+                <img src="./assets/educaçao.jpg" alt="imagem de crianças" />
+                <h3> Educação Ambiental</h3>
+                <p>Promove oficinas e rodas de conversas </p>
+                <button>Ver mais </button>
+            </article>
 
+            <article class="card">
+                <img src="./assets/cuidados.png" alt="imagem de mãos" />
+                <h3>Cuidados </h3>
+                <p> Ajude a manter areas preservadas</p>
+                <button>Ver mais</button>
+            </article>
+
+
+            <article class="card">
+                <img src="./assets/mapeamento.jpg" alt="imagem de platação" />
+                <h3> Mapeamento</h3>
+                <p>Indentifique areas que precisam de mapeamento </p>
+                <button>Ver mais</button>
+            </article>
+
+        </section>
+        
+
+        <section class="cadastrar">
+            <h2>Cadastre-se como voluntário</h2>
+            <p>Faça parte de ações que transformam o mundo. Com pequenas atitudes, você pode gerar grandes impactos na natureza e na comunidade</p>
+
+            <form action="Local de envio" method="dialog">
+                <fieldset>
+                    <div>
+                       
+                        <label for="name"> Nome:</label>
+                        <input type="text" id="nome" nome="nome" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div>
+                        <label for="email"> E-mail:</label>
+                        <input type="email" id="email" nome="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                        <div>
+                            <label for="Cidade"> Cidade:</label>
+                            <input type="text" id="cidade" nome="cidade" placeholder="Digite sua cidade" required>
+                        </div>
+                        <div>
+
+                            <label for="atividade"> Atividade:</label>
+                            <select id="atividade" nome="atividade" required>
+                                <option value="">Selecione uma atividade</option>
+                                <option value="Professor"> Professor</option>
+                                <option value="Empresario"> Empresario</option>
+                                <option value="medico"> Médico</option>
+                                <option value="estudante"> Estudante</option>
+
+                            </select>
+                            
+                        </div>
+                        <button>Cadastrar</button>
+                        
+                            
+                        
+                </fieldset>
+
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Verde Ação. Todos os direitos reservados.</p>
 
 </body>
 
 </html>
+
